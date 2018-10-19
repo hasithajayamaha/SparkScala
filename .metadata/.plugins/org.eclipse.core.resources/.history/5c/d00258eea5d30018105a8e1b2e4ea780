@@ -1,0 +1,9 @@
+package com.hasitha.spark.firstApp
+
+import org.apache.spark.SparkConf
+
+object test {
+  def main(args: Array[String]) {
+    println("first App")
+  }
+}

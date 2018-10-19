@@ -1,0 +1,17 @@
+package com.hasitha.spark.firstApp
+
+import org.apache.spark._
+import org.apache.log4j._
+
+object test {
+  def main(args: Array[String]) {
+    println("Start")
+    
+    Logger.getLogger("org").setLevel(Level.ERROR)
+    
+    val appName = "firstApp"
+    val sc = new SparkContext("local[*]", appName)   
+    
+    println("end")
+  }
+}

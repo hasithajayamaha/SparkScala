@@ -1,0 +1,5 @@
+package com.sqlknowledgebank.spark.sparkstreaming
+
+object TwitterTransmitter extends App {
+  
+}

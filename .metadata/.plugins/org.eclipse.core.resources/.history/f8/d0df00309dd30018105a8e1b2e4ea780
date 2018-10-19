@@ -1,0 +1,5 @@
+package com.hasitha.spark.firstApp
+
+object test extends App {
+  
+}
